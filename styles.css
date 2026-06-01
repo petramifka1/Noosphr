@@ -43,9 +43,9 @@ body {
   left: 0;
   right: 0;
   z-index: 100;
-  background: rgba(10, 10, 14, 0.85);
+  background: rgba(243, 240, 234, 0.94);
   backdrop-filter: blur(20px);
-  border-bottom: 1px solid rgba(255,255,255,0.07);
+  border-bottom: 1px solid var(--border-light);
   transition: border-color 0.15s;
 }
 
@@ -60,11 +60,11 @@ body {
 }
 
 .nav-logo {
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--white);
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--ink);
   text-decoration: none;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.04em;
   flex-shrink: 0;
 }
 
@@ -78,12 +78,12 @@ body {
 .nav-links a {
   font-size: 0.825rem;
   font-weight: 400;
-  color: rgba(255,255,255,0.5);
+  color: var(--muted);
   text-decoration: none;
   transition: color 0.15s;
 }
 
-.nav-links a:hover { color: var(--white); }
+.nav-links a:hover { color: var(--ink); }
 
 .nav-toggle {
   display: none;
@@ -192,8 +192,8 @@ body {
 /* ── HERO ── */
 #hero {
   padding: calc(var(--nav-h) + 9rem) 0 8rem;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-  background: #07070c;
+  border-bottom: 1px solid var(--border);
+  background: var(--off-white);
   position: relative;
   overflow: hidden;
 }
@@ -202,18 +202,29 @@ body {
   position: absolute;
   inset: 0;
   z-index: 0;
+  pointer-events: none;
 }
 
 .hero-bg img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center center;
-  opacity: 0.5;
+  object-position: center 60%;
+  opacity: 0.18;
   display: block;
+  mix-blend-mode: multiply;
 }
 
 #hero .container { position: relative; z-index: 1; }
+
+.hero-brand-display {
+  font-size: clamp(3.5rem, 8vw, 7rem);
+  font-weight: 800;
+  letter-spacing: -0.055em;
+  line-height: 1;
+  color: var(--ink);
+  margin-bottom: 1.5rem;
+}
 
 .hero-meta { margin-bottom: 2.5rem; }
 
@@ -222,7 +233,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.4);
+  color: var(--light);
 }
 
 #hero h1 {
@@ -230,7 +241,7 @@ body {
   font-weight: 800;
   letter-spacing: -0.045em;
   line-height: 1.0;
-  color: var(--white);
+  color: var(--ink);
   margin-bottom: 3.5rem;
 }
 
@@ -239,13 +250,13 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
   align-items: end;
-  border-top: 1px solid rgba(255,255,255,0.12);
+  border-top: 1px solid var(--border);
   padding-top: 2.5rem;
 }
 
 .hero-sub {
   font-size: 0.975rem;
-  color: rgba(255,255,255,0.55);
+  color: var(--muted);
   line-height: 1.75;
   max-width: 480px;
 }
@@ -449,8 +460,8 @@ body {
 
 .founder-tags {
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 0.4rem;
   padding-top: 0.5rem;
   border-top: 1px solid var(--border-light);
@@ -462,8 +473,9 @@ body {
   color: var(--muted);
   background: var(--off-white);
   border: 1px solid var(--border-light);
-  padding: 0.2rem 0.6rem;
+  padding: 0.25rem 0.6rem;
   border-radius: 3px;
+  text-align: center;
 }
 
 .founder-card--placeholder .founder-tags li {
