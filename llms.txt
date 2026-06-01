@@ -1,0 +1,48 @@
+# noosphr
+
+> noosphr is a Berlin-based two-practitioner AI consultancy. We design, build, and optimise agentic AI systems for Procurement, Trust and Safety, Compliance, and Enterprise Workflows.
+
+noosphr was founded by Petra Mifka and Eugen Müller — two operators who became AI engineers. Combined, they bring 20+ years of hands-on experience running the functions they now automate: Trust and Safety at scale (TikTok, Meta) and enterprise procurement (TeamViewer, Scout24, Delivery Hero).
+
+We do not produce strategy decks. We ship working systems: agentic pipelines, compliance infrastructure, and AI-augmented operational frameworks.
+
+## Founders
+
+**Petra Mifka** — Co-Founder
+10+ years leading Trust and Safety at TikTok and Meta, including a 600+ FTE organisation across EMEA. Expert in EU AI Act compliance, agentic AI product delivery, and responsible AI governance.
+Website: https://petramifka.com
+LinkedIn: https://www.linkedin.com/in/petra-mifka
+
+**Eugen Müller** — Co-Founder
+10+ years running procurement and category management at TeamViewer, Scout24, and Delivery Hero. Expert in agentic AI build, enterprise automation, and process optimisation.
+GitHub: https://github.com/eugnmueller-87
+LinkedIn: https://www.linkedin.com/in/eugen-mueller
+
+## Services
+
+- **Agentic AI Systems**: Design and deploy multi-step AI agent pipelines using Claude API, n8n, LangChain, and Pinecone. Built for production, not demos.
+- **Process Optimisation with AI**: Workflow redesign for AI augmentation, from RFP automation to QA and supplier triage.
+- **EU AI Act & Compliance Build**: Annex III classification, FRIA writing, and compliance infrastructure built to survive an audit.
+- **Trust & Safety at Scale**: AI-augmented harm taxonomies, governance frameworks, and DSA-compliant QA operations.
+
+## Projects (Open Source)
+
+- **TrueSpend** — AI-native procurement operating system: https://github.com/eugnmueller-87/TrueSpend
+- **Pantheon** — 8-agent autonomous trading system for German equity markets: https://github.com/eugnmueller-87/Pantheon
+- **Icarus** — Personal AI operating system with multi-agent coordination: https://github.com/eugnmueller-87/Personal-Assistent
+- **Metabelly** — Automated customer support triage for e-commerce: https://github.com/eugnmueller-87/Metabelly
+
+## Key Facts
+
+- Location: Berlin, Germany
+- Focus: Europe, with global client base
+- Combined experience: 20+ years
+- AI systems shipped: 7+
+- Spend governed: €70M+
+- Regulatory expertise: EU AI Act, DSA, GDPR
+
+## Contact
+
+Email: info@noosphr.de
+Book a call: https://calendly.com/mifkapetra/30min
+Website: https://noosphr.de

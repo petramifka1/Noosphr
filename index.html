@@ -3,35 +3,138 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>noosphr | AI Strategy & Responsible Tech</title>
-  <meta name="description" content="Two-practitioner consultancy building the compliance infrastructure, Trust & Safety programmes, and agentic systems that make responsible AI operate at scale." />
+  <title>noosphr | Agentic AI Systems, EU AI Act Compliance & Trust and Safety</title>
+  <meta name="description" content="noosphr is a Berlin-based AI consultancy founded by Petra Mifka and Eugen Müller. We build agentic AI systems, EU AI Act compliance infrastructure, and Trust & Safety frameworks for enterprise teams across Europe." />
+  <meta name="author" content="Petra Mifka, Eugen Müller" />
+  <meta name="keywords" content="agentic AI consultancy Berlin, EU AI Act compliance, Trust and Safety AI, procurement automation, agentic AI systems build, responsible AI, enterprise AI consultancy" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://noosphr.de/" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://noosphr.de/" />
-  <meta property="og:title" content="noosphr | AI Strategy & Responsible Tech" />
-  <meta property="og:description" content="Two-practitioner consultancy building the compliance infrastructure, Trust & Safety programmes, and agentic systems that make responsible AI operate at scale." />
+  <meta property="og:title" content="noosphr | Agentic AI Systems & EU AI Act Compliance" />
+  <meta property="og:description" content="Berlin-based AI consultancy building agentic systems, EU AI Act compliance infrastructure, and Trust & Safety frameworks. Two practitioners who've run the operations, now engineering the tools." />
   <meta property="og:image" content="https://noosphr.de/petra.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
   <meta property="og:site_name" content="noosphr" />
   <meta property="og:locale" content="en_GB" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="noosphr | AI Strategy & Responsible Tech" />
-  <meta name="twitter:description" content="Two-practitioner consultancy building the compliance infrastructure, Trust & Safety programmes, and agentic systems that make responsible AI operate at scale." />
+  <meta name="twitter:title" content="noosphr | Agentic AI Systems & EU AI Act Compliance" />
+  <meta name="twitter:description" content="Berlin-based AI consultancy building agentic systems, EU AI Act compliance infrastructure, and Trust & Safety frameworks." />
   <meta name="twitter:image" content="https://noosphr.de/petra.jpg" />
 
+  <!-- Performance -->
+  <link rel="preload" href="hero-bg.jpg" as="image" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;0,14..32,800;1,14..32,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://noosphr.de/#organization",
+        "name": "noosphr",
+        "url": "https://noosphr.de",
+        "email": "info@noosphr.de",
+        "description": "noosphr is a Berlin-based two-practitioner AI consultancy. We design, build, and optimise agentic AI systems for Procurement, Trust and Safety, Compliance, and Enterprise Workflows.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Berlin",
+          "addressCountry": "DE"
+        },
+        "areaServed": "Europe",
+        "knowsAbout": ["Agentic AI Systems", "EU AI Act Compliance", "Trust and Safety", "Procurement Automation", "Enterprise AI", "Process Optimisation"],
+        "founder": [
+          {
+            "@type": "Person",
+            "@id": "https://noosphr.de/#petra-mifka",
+            "name": "Petra Mifka",
+            "jobTitle": "Co-Founder",
+            "url": "https://petramifka.com",
+            "sameAs": "https://www.linkedin.com/in/petra-mifka",
+            "description": "10+ years leading Trust and Safety at TikTok and Meta across EMEA. Expert in EU AI Act compliance, agentic AI products, and responsible AI governance."
+          },
+          {
+            "@type": "Person",
+            "@id": "https://noosphr.de/#eugen-mueller",
+            "name": "Eugen Mueller",
+            "jobTitle": "Co-Founder",
+            "sameAs": ["https://www.linkedin.com/in/eugen-mueller", "https://github.com/eugnmueller-87"],
+            "description": "10+ years in procurement and enterprise operations at TeamViewer, Scout24, and Delivery Hero. Expert in agentic AI build, process optimisation, and enterprise automation."
+          }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://noosphr.de/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What does noosphr do?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "noosphr designs, builds, and optimises agentic AI systems and the operational infrastructure around them. Our focus is on Procurement, Trust and Safety, and Compliance, shipping things that work under real conditions, not just in demos. We work with organisations across Europe and globally, from focused build sprints to multi-month delivery programmes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does a typical noosphr engagement look like?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Engagements range from focused advisory (a few days) to multi-month delivery projects. We work hands-on, not just strategy decks. Every engagement starts with a clear scope, defined deliverables, and regular checkpoints to ensure alignment on outcomes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does noosphr's agentic AI work look like in practice?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We design multi-step AI pipelines that can reason, retrieve, and execute across complex operational tasks with minimal human intervention. A typical build combines a reasoning model (Claude API) with retrieval (Pinecone or a vector store), workflow orchestration (n8n or LangChain), and human-in-the-loop checkpoints. We instrument everything so you can see what the agent is doing, where it is uncertain, and where it is saving time."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do we get started with noosphr?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Book a short discovery call directly via Calendly, or send an email to info@noosphr.de. We will talk through your current challenges and where AI can deliver the most leverage, then follow up with a scoped proposal. Most engagements start with a focused diagnostic sprint before moving into build."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does noosphr work with organisations outside the EU?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. We work with organisations globally, though our recent focus has been on EU regulatory frameworks including the AI Act, DSA, and GDPR-aligned safety, and on enterprise operations teams across Europe."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is noosphr a duo practice?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Because the best agentic AI systems are built by people who have run the operations they are automating. Petra spent 10+ years leading Trust and Safety at TikTok and Meta. Eugen spent 10+ years running procurement and enterprise operations at TeamViewer, Scout24, and Delivery Hero. We are operators who became engineers."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
   <!-- NAV -->
-  <nav id="nav">
+  <nav id="nav" aria-label="Main navigation">
     <div class="nav-inner">
       <a href="#" class="nav-logo">noosphr</a>
       <ul class="nav-links">
@@ -43,7 +146,7 @@
         <li><a href="#faq">FAQ</a></li>
       </ul>
       <a href="#contact" class="btn btn-dark">Work With Us</a>
-      <button class="nav-toggle" aria-label="Toggle menu">
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -59,7 +162,7 @@
   </nav>
 
   <!-- HERO -->
-  <section id="hero">
+  <section id="hero" aria-label="Introduction">
     <div class="hero-bg" aria-hidden="true">
       <img src="hero-bg.jpg" alt="" />
     </div>
@@ -80,7 +183,7 @@
   </section>
 
   <!-- STATS -->
-  <section id="stats">
+  <section id="stats" aria-label="Key statistics">
     <div class="container">
       <div class="stats-grid">
         <div class="stat">
@@ -104,7 +207,7 @@
   </section>
 
   <!-- LOGO STRIP -->
-  <section id="logos">
+  <section id="logos" aria-label="Experience at">
     <div class="container">
       <div class="logos-inner">
         <span class="logos-label">Experience at</span>
@@ -131,7 +234,7 @@
         <!-- Petra -->
         <div class="founder-card">
           <div class="founder-photo">
-            <img src="petra.jpg" alt="Petra Mifka" />
+            <img src="petra.jpg" alt="Petra Mifka, Co-Founder of noosphr" loading="lazy" decoding="async" />
           </div>
           <div class="founder-body">
             <div class="founder-title">
@@ -146,12 +249,12 @@
               <li>AI Product Build</li>
             </ul>
             <div class="founder-links">
-              <a href="https://www.linkedin.com/in/petra-mifka" target="_blank" rel="noopener" class="social-icon-link" aria-label="LinkedIn">
-                <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              <a href="https://www.linkedin.com/in/petra-mifka" target="_blank" rel="noopener" class="social-icon-link" aria-label="Petra Mifka on LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
                 <span>LinkedIn</span>
               </a>
-              <a href="https://petramifka.com" target="_blank" rel="noopener" class="social-icon-link">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+              <a href="https://petramifka.com" target="_blank" rel="noopener" class="social-icon-link" aria-label="Petra Mifka's website">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
                 <span>petramifka.com</span>
               </a>
             </div>
@@ -161,7 +264,7 @@
         <!-- Eugen Müller -->
         <div class="founder-card">
           <div class="founder-photo">
-            <img src="eugen.jpg" alt="Eugen Müller" />
+            <img src="eugen.jpg" alt="Eugen Müller, Co-Founder of noosphr" loading="lazy" decoding="async" />
           </div>
           <div class="founder-body">
             <div class="founder-title">
@@ -176,12 +279,12 @@
               <li>Procurement AI</li>
             </ul>
             <div class="founder-links">
-              <a href="https://www.linkedin.com/in/eugen-mueller" target="_blank" rel="noopener" class="social-icon-link" aria-label="LinkedIn">
-                <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              <a href="https://www.linkedin.com/in/eugen-mueller" target="_blank" rel="noopener" class="social-icon-link" aria-label="Eugen Müller on LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
                 <span>LinkedIn</span>
               </a>
-              <a href="https://github.com/eugnmueller-87" target="_blank" rel="noopener" class="social-icon-link">
-                <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              <a href="https://github.com/eugnmueller-87" target="_blank" rel="noopener" class="social-icon-link" aria-label="Eugen Müller on GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16" aria-hidden="true"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
                 <span>GitHub</span>
               </a>
             </div>
@@ -198,13 +301,13 @@
       <div class="section-header">
         <span class="section-tag">Services</span>
         <h2>We build.<br>We optimise.<br>We ship.</h2>
-        <p class="section-sub">No strategy decks without implementation. Every engagement ends with something working — a system, a pipeline, an infrastructure you can operate and demonstrate.</p>
+        <p class="section-sub">No strategy decks without implementation. Every engagement ends with something working: a system, a pipeline, an infrastructure you can operate and demonstrate.</p>
       </div>
       <div class="services-grid">
         <div class="service-card">
           <span class="service-num">01</span>
           <h3>Agentic AI Systems</h3>
-          <p>Design and deploy multi-step AI agent pipelines that handle real operational complexity — autonomous document triage, supplier workflows, content moderation, and decision-support automation. Built for production, not demos. Claude API, LangChain, Pinecone, n8n.</p>
+          <p>Design and deploy multi-step AI agent pipelines that handle real operational complexity: autonomous document triage, supplier workflows, content moderation, and decision-support automation. Built for production, not demos. Claude API, LangChain, Pinecone, n8n.</p>
           <ul class="service-tags">
             <li>Multi-step agents</li>
             <li>Autonomous pipelines</li>
@@ -215,7 +318,7 @@
         <div class="service-card">
           <span class="service-num">02</span>
           <h3>Process Optimisation with AI</h3>
-          <p>Map, diagnose, and redesign operational workflows for AI augmentation. From compressing RFP cycles to automating QA and supplier triage — we identify where AI delivers maximum leverage and build the integrations that prove it in measurable efficiency gains.</p>
+          <p>Map, diagnose, and redesign operational workflows for AI augmentation. From compressing RFP cycles to automating QA and supplier triage; we identify where AI delivers maximum leverage and build the integrations that prove it in measurable efficiency gains.</p>
           <ul class="service-tags">
             <li>Workflow mapping</li>
             <li>RFP &amp; QA automation</li>
@@ -226,7 +329,7 @@
         <div class="service-card">
           <span class="service-num">03</span>
           <h3>EU AI Act &amp; Compliance Build</h3>
-          <p>Turn regulatory obligation into working compliance infrastructure. From Annex III classification and FRIA writing to governance frameworks built to survive an audit — we build the infrastructure that makes compliance demonstrable, not just aspirational.</p>
+          <p>Turn regulatory obligation into working compliance infrastructure. From Annex III classification and FRIA writing to governance frameworks built to survive an audit; we build the infrastructure that makes compliance demonstrable, not just aspirational.</p>
           <ul class="service-tags">
             <li>Annex III classification</li>
             <li>FRIA writing</li>
@@ -278,7 +381,7 @@
           <div class="eng-item">
             <div class="eng-item-main">
               <div class="eng-company">
-                <img class="eng-logo" src="https://www.google.com/s2/favicons?sz=128&domain=tiktok.com" alt="" />
+                <img class="eng-logo" src="https://www.google.com/s2/favicons?sz=128&domain=tiktok.com" alt="" loading="lazy" />
                 <span class="eng-name">TikTok</span>
               </div>
               <span class="eng-tag">Trust &amp; Safety</span>
@@ -288,7 +391,7 @@
           <div class="eng-item">
             <div class="eng-item-main">
               <div class="eng-company">
-                <img class="eng-logo" src="https://www.google.com/s2/favicons?sz=128&domain=meta.com" alt="" />
+                <img class="eng-logo" src="https://www.google.com/s2/favicons?sz=128&domain=meta.com" alt="" loading="lazy" />
                 <span class="eng-name">Meta</span>
               </div>
               <span class="eng-tag">Trust &amp; Safety</span>
@@ -298,7 +401,7 @@
           <div class="eng-item">
             <div class="eng-item-main">
               <div class="eng-company">
-                <img class="eng-logo" src="https://www.google.com/s2/favicons?sz=128&domain=deliveryhero.com" alt="" />
+                <img class="eng-logo" src="https://www.google.com/s2/favicons?sz=128&domain=deliveryhero.com" alt="" loading="lazy" />
                 <span class="eng-name">Delivery Hero</span>
               </div>
               <span class="eng-tag">Operations</span>
@@ -314,7 +417,7 @@
           <div class="eng-item">
             <div class="eng-item-main">
               <div class="eng-company">
-                <img class="eng-logo" src="https://www.google.com/s2/favicons?sz=128&domain=teamviewer.com" alt="" />
+                <img class="eng-logo" src="https://www.google.com/s2/favicons?sz=128&domain=teamviewer.com" alt="" loading="lazy" />
                 <span class="eng-name">TeamViewer</span>
               </div>
               <span class="eng-tag">Procurement</span>
@@ -324,7 +427,7 @@
           <div class="eng-item">
             <div class="eng-item-main">
               <div class="eng-company">
-                <img class="eng-logo" src="https://www.google.com/s2/favicons?sz=128&domain=scout24.com" alt="" />
+                <img class="eng-logo" src="https://www.google.com/s2/favicons?sz=128&domain=scout24.com" alt="" loading="lazy" />
                 <span class="eng-name">Scout24</span>
               </div>
               <span class="eng-tag">Procurement</span>
@@ -334,7 +437,7 @@
           <div class="eng-item">
             <div class="eng-item-main">
               <div class="eng-company">
-                <img class="eng-logo" src="https://www.google.com/s2/favicons?sz=128&domain=deliveryhero.com" alt="" />
+                <img class="eng-logo" src="https://www.google.com/s2/favicons?sz=128&domain=deliveryhero.com" alt="" loading="lazy" />
                 <span class="eng-name">Delivery Hero</span>
               </div>
               <span class="eng-tag">Procurement</span>
@@ -343,7 +446,6 @@
           </div>
         </div>
       </div>
-
 
     </div>
   </section>
@@ -365,7 +467,7 @@
           </div>
           <h3 class="project-name">TrueSpend</h3>
           <p class="project-sub">AI-native procurement operating system</p>
-          <p class="project-desc">Autonomous reasoning agent for mid-market procurement. A 5-signal decision engine evaluates every transaction across contract, budget, supplier, request, and policy context simultaneously — then either acts, raises a single board ticket, or escalates to Jira. Handles approvals, license management, contract renewals, and LLM shadow spend tracking. Only surfaces decisions that genuinely require human judgment.</p>
+          <p class="project-desc">Autonomous reasoning agent for mid-market procurement. A 5-signal decision engine evaluates every transaction across contract, budget, supplier, request, and policy context simultaneously, then either acts, raises a single board ticket, or escalates to Jira. Handles approvals, license management, contract renewals, and LLM shadow spend tracking. Only surfaces decisions that genuinely require human judgment.</p>
           <ul class="project-stack">
             <li>Claude Sonnet 4.6</li>
             <li>n8n · 14 workflows</li>
@@ -399,7 +501,7 @@
           </div>
           <h3 class="project-name">Icarus</h3>
           <p class="project-sub">Personal AI operating system · icarusai.de</p>
-          <p class="project-desc">Four-agent procurement intelligence system built around a personal AI assistant accessible via Telegram and PWA. Handles calendar, email, LinkedIn, GitHub, and task management while coordinating three specialist agents — Hermes (market intelligence), Hades (supplier due diligence), and SpendLens (spend analytics). Parallel tool execution via ThreadPoolExecutor. Morning briefings at 06:00 Berlin time.</p>
+          <p class="project-desc">Four-agent procurement intelligence system built around a personal AI assistant accessible via Telegram and PWA. Handles calendar, email, LinkedIn, GitHub, and task management while coordinating three specialist agents: Hermes (market intelligence), Hades (supplier due diligence), and SpendLens (spend analytics). Parallel tool execution via ThreadPoolExecutor. Morning briefings at 06:00 Berlin time.</p>
           <ul class="project-stack">
             <li>Claude Sonnet + Haiku</li>
             <li>FastAPI · Telegram Bot</li>
@@ -439,7 +541,7 @@
         <p class="section-sub">Available for keynotes, panels, podcast appearances, and mentorship.</p>
       </div>
       <div class="speaking-photo">
-        <img src="petra-speaking.jpg" alt="Petra Mifka speaking" />
+        <img src="petra-speaking.jpg" alt="Petra Mifka speaking at a conference" loading="lazy" decoding="async" />
       </div>
       <div class="speaking-grid">
         <div class="speaking-card">
@@ -450,7 +552,7 @@
           <h3>Podcast</h3>
           <p>Speaking on navigating Trust &amp; Safety in AI, building safer digital environments, and human-centered quality frameworks at scale.</p>
           <a href="https://open.spotify.com/episode/329Sorg7mLgUVVLqdQzh4t" target="_blank" rel="noopener" class="speaking-link">
-            <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
             Uncaged Show · "Navigating Trust and Safety in AI" ↗
           </a>
         </div>
@@ -479,63 +581,63 @@
       </div>
       <div class="faq-list">
         <div class="faq-item">
-          <button class="faq-question">
+          <button class="faq-question" aria-expanded="false">
             <span class="faq-num">01</span>
             What does noosphr do?
-            <span class="faq-icon">+</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
           </button>
-          <div class="faq-answer">
-            <p>noosphr designs, builds, and optimises agentic AI systems and the operational infrastructure around them. Our focus is on the functions we know from the inside — procurement, Trust &amp; Safety, compliance — and on shipping things that work under real conditions, not just in demos. We work with organisations across Europe and globally, from focused build sprints to multi-month delivery programmes.</p>
+          <div class="faq-answer" hidden>
+            <p>noosphr designs, builds, and optimises agentic AI systems and the operational infrastructure around them. Our focus is on Procurement, Trust &amp; Safety, and Compliance; shipping things that work under real conditions, not just in demos. We work with organisations across Europe and globally, from focused build sprints to multi-month delivery programmes.</p>
           </div>
         </div>
         <div class="faq-item">
-          <button class="faq-question">
+          <button class="faq-question" aria-expanded="false">
             <span class="faq-num">02</span>
             What does a typical engagement look like?
-            <span class="faq-icon">+</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
           </button>
-          <div class="faq-answer">
+          <div class="faq-answer" hidden>
             <p>Engagements range from focused advisory (a few days) to multi-month delivery projects. We work hands-on, not just strategy decks. Every engagement starts with a clear scope, defined deliverables, and regular checkpoints to ensure we stay aligned on outcomes.</p>
           </div>
         </div>
         <div class="faq-item">
-          <button class="faq-question">
+          <button class="faq-question" aria-expanded="false">
             <span class="faq-num">03</span>
             What does your agentic AI work actually look like?
-            <span class="faq-icon">+</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
           </button>
-          <div class="faq-answer">
-            <p>We design multi-step AI pipelines that can reason, retrieve, and execute across complex operational tasks with minimal human intervention. A typical build combines a reasoning model (Claude API) with retrieval (Pinecone or a vector store), workflow orchestration (n8n or LangChain), and targeted human-in-the-loop checkpoints where the risk profile demands it. We instrument everything — so you can see what the agent is doing, where it's uncertain, and where it's saving time. The goal is always systems that perform reliably in production, not just in controlled demos.</p>
+          <div class="faq-answer" hidden>
+            <p>We design multi-step AI pipelines that can reason, retrieve, and execute across complex operational tasks with minimal human intervention. A typical build combines a reasoning model (Claude API) with retrieval (Pinecone or a vector store), workflow orchestration (n8n or LangChain), and targeted human-in-the-loop checkpoints where the risk profile demands it. We instrument everything, so you can see what the agent is doing, where it's uncertain, and where it's saving time. The goal is always systems that perform reliably in production, not just in controlled demos.</p>
           </div>
         </div>
         <div class="faq-item">
-          <button class="faq-question">
+          <button class="faq-question" aria-expanded="false">
             <span class="faq-num">04</span>
             How do we get started?
-            <span class="faq-icon">+</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
           </button>
-          <div class="faq-answer">
-            <p>Book a short discovery call directly via Calendly, or send us an email. We'll talk through your current challenges and where AI can deliver the most leverage — then follow up with a scoped proposal. Most engagements start with a focused diagnostic sprint before moving into build.</p>
+          <div class="faq-answer" hidden>
+            <p>Book a short discovery call directly via Calendly, or send us an email. We'll talk through your current challenges and where AI can deliver the most leverage, then follow up with a scoped proposal. Most engagements start with a focused diagnostic sprint before moving into build.</p>
           </div>
         </div>
         <div class="faq-item">
-          <button class="faq-question">
+          <button class="faq-question" aria-expanded="false">
             <span class="faq-num">05</span>
             Do you work with organisations outside the EU?
-            <span class="faq-icon">+</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
           </button>
-          <div class="faq-answer">
-            <p>Yes. We work with organisations globally, though our recent focus has been on EU regulatory frameworks — AI Act, DSA, GDPR-aligned safety — and on enterprise operations teams across Europe. Our team has worked across Europe, APAC, and the US throughout their careers.</p>
+          <div class="faq-answer" hidden>
+            <p>Yes. We work with organisations globally, though our recent focus has been on EU regulatory frameworks (AI Act, DSA, GDPR-aligned safety) and on enterprise operations teams across Europe. Our team has worked across Europe, APAC, and the US throughout their careers.</p>
           </div>
         </div>
         <div class="faq-item">
-          <button class="faq-question">
+          <button class="faq-question" aria-expanded="false">
             <span class="faq-num">06</span>
             Why a duo practice?
-            <span class="faq-icon">+</span>
+            <span class="faq-icon" aria-hidden="true">+</span>
           </button>
-          <div class="faq-answer">
-            <p>Because the best agentic AI systems are built by people who've run the operations they're automating. Petra spent 10+ years leading Trust &amp; Safety at scale. Eugen spent 10+ years running procurement and enterprise operations. We're not advisors who learned AI — we're operators who became engineers. That combination means we build systems that actually hold up when they hit production.</p>
+          <div class="faq-answer" hidden>
+            <p>Because the best agentic AI systems are built by people who've run the operations they're automating. Petra spent 10+ years leading Trust &amp; Safety at scale. Eugen spent 10+ years running procurement and enterprise operations. We're not advisors who learned AI; we're operators who became engineers. That combination means we build systems that actually hold up when they hit production.</p>
           </div>
         </div>
       </div>
@@ -549,40 +651,40 @@
         <div class="contact-left">
           <span class="section-tag section-tag--light">Contact</span>
           <h2>Ready to build<br>something that works?</h2>
-          <p>Whether you need an agentic AI system built from scratch, an existing process optimised for AI, or a compliance infrastructure that holds up under scrutiny — we start with a conversation and end with something shipped.</p>
-          <div class="contact-links">
+          <p>Whether you need an agentic AI system built from scratch, an existing process optimised for AI, or a compliance infrastructure that holds up under scrutiny; we start with a conversation and end with something shipped.</p>
+          <address class="contact-links">
             <a href="mailto:info@noosphr.de" class="contact-link">
-              <span class="contact-link-icon">✉</span>
+              <span class="contact-link-icon" aria-hidden="true">✉</span>
               info@noosphr.de
             </a>
-            <a href="https://www.linkedin.com/in/petra-mifka" target="_blank" rel="noopener" class="contact-link">
-              <span class="contact-link-icon">
+            <a href="https://www.linkedin.com/in/petra-mifka" target="_blank" rel="noopener" class="contact-link" aria-label="LinkedIn profile">
+              <span class="contact-link-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
               </span>
               linkedin.com/in/petra-mifka
             </a>
             <a href="https://calendly.com/mifkapetra/30min" target="_blank" rel="noopener" class="contact-link">
-              <span class="contact-link-icon">◷</span>
+              <span class="contact-link-icon" aria-hidden="true">◷</span>
               Book a free call
             </a>
-          </div>
+          </address>
         </div>
         <div class="contact-right">
           <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
             <input type="hidden" name="form-name" value="contact" />
             <input type="hidden" name="_subject" value="New message via noosphr.de" />
-            <input type="hidden" name="bot-field" style="display:none" />
+            <p style="display:none" aria-hidden="true"><label>Skip this: <input name="bot-field" type="text" /></label></p>
             <div class="form-group">
               <label for="name">Name</label>
-              <input type="text" id="name" name="name" placeholder="Your name" required />
+              <input type="text" id="name" name="name" placeholder="Your name" required autocomplete="name" />
             </div>
             <div class="form-group">
               <label for="email">Email</label>
-              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+              <input type="email" id="email" name="email" placeholder="your@email.com" required autocomplete="email" />
             </div>
             <div class="form-group">
               <label for="org">Organisation</label>
-              <input type="text" id="org" name="org" placeholder="Where you work" />
+              <input type="text" id="org" name="org" placeholder="Where you work" autocomplete="organization" />
             </div>
             <div class="form-group">
               <label for="message">Message</label>

@@ -3,11 +3,15 @@ const navToggle = document.querySelector('.nav-toggle');
 const navMobile = document.querySelector('.nav-mobile');
 
 navToggle.addEventListener('click', () => {
-  navMobile.classList.toggle('open');
+  const isOpen = navMobile.classList.toggle('open');
+  navToggle.setAttribute('aria-expanded', isOpen);
 });
 
 document.querySelectorAll('.nav-mobile a').forEach(link => {
-  link.addEventListener('click', () => navMobile.classList.remove('open'));
+  link.addEventListener('click', () => {
+    navMobile.classList.remove('open');
+    navToggle.setAttribute('aria-expanded', 'false');
+  });
 });
 
 // FAQ accordion
@@ -19,12 +23,15 @@ document.querySelectorAll('.faq-question').forEach(btn => {
 
     document.querySelectorAll('.faq-item.open').forEach(open => {
       open.classList.remove('open');
-      open.querySelector('.faq-answer').style.display = 'none';
+      const a = open.querySelector('.faq-answer');
+      a.hidden = true;
+      open.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
     });
 
     if (!isOpen) {
       item.classList.add('open');
-      answer.style.display = 'block';
+      answer.hidden = false;
+      btn.setAttribute('aria-expanded', 'true');
     }
   });
 });
