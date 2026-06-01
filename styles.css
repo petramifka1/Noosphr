@@ -713,6 +713,103 @@ body {
   color: var(--muted);
 }
 
+/* ── PROJECTS ── */
+#projects {
+  padding: 8rem 0;
+  border-bottom: 1px solid var(--border-light);
+  background: var(--off-white);
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5px;
+  background: var(--border-light);
+  border: 1.5px solid var(--border-light);
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 4rem;
+}
+
+.project-card {
+  background: var(--white);
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  transition: background 0.15s;
+}
+
+.project-card:hover { background: #FDFCFA; }
+
+.project-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.project-cat {
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--light);
+}
+
+.project-gh {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--muted);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.15s;
+  flex-shrink: 0;
+}
+
+.project-gh:hover { color: var(--ink); }
+
+.project-name {
+  font-size: 1.4rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  line-height: 1;
+}
+
+.project-sub {
+  font-size: 0.75rem;
+  color: var(--light);
+  margin-top: -0.25rem;
+}
+
+.project-desc {
+  font-size: 0.875rem;
+  color: var(--muted);
+  line-height: 1.75;
+  flex: 1;
+}
+
+.project-stack {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: auto;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border-light);
+}
+
+.project-stack li {
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--muted);
+  background: var(--off-white);
+  border: 1px solid var(--border-light);
+  padding: 0.2rem 0.65rem;
+  border-radius: 3px;
+}
+
 /* ── SPEAKING & MEDIA ── */
 #speaking {
   padding: 8rem 0;
@@ -1024,6 +1121,7 @@ body {
   .eng-group { grid-template-columns: 1fr; gap: 1.5rem; }
 
   .speaking-grid { grid-template-columns: 1fr; }
+  .projects-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 680px) {
@@ -1038,7 +1136,8 @@ body {
 
   .logos-inner { flex-direction: column; align-items: flex-start; gap: 1.25rem; }
 
-  #about, #services, #work, #faq, #speaking { padding: 5rem 0; }
+  #about, #services, #work, #projects, #faq, #speaking { padding: 5rem 0; }
+  .projects-grid { grid-template-columns: 1fr; }
   #deadline, #contact { padding: 5rem 0; }
 
   .about-header h2,
