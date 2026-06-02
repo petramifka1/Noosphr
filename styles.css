@@ -1169,6 +1169,7 @@ address.contact-links { font-style: normal; }
 
   #about, #services, #work, #projects, #faq, #speaking { padding: 5rem 0; }
   .founder-photo { max-height: 300px; }
+  .founder-tags { grid-template-columns: 1fr; }
   .projects-grid { grid-template-columns: 1fr; }
   #deadline, #contact { padding: 5rem 0; }
 
