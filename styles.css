@@ -60,12 +60,16 @@ body {
 }
 
 .nav-logo {
-  font-size: 1.35rem;
-  font-weight: 800;
-  color: var(--ink);
+  display: flex;
+  align-items: center;
   text-decoration: none;
-  letter-spacing: -0.04em;
   flex-shrink: 0;
+}
+
+.nav-logo-img {
+  display: block;
+  height: 28px;
+  width: auto;
 }
 
 .nav-links {
@@ -1116,11 +1120,10 @@ address.contact-links { font-style: normal; }
   flex-wrap: wrap;
 }
 
-.footer-name {
-  font-size: 0.825rem;
-  font-weight: 700;
-  color: rgba(255,255,255,0.55);
-  letter-spacing: -0.02em;
+.footer-logo-icon {
+  height: 20px;
+  width: auto;
+  opacity: 0.55;
 }
 
 .footer-location { font-size: 0.8rem; color: rgba(255,255,255,0.25); }
