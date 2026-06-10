@@ -1,15 +1,13 @@
 # noosphr
 
-> noosphr is a Berlin-based two-practitioner AI consultancy. We design, build, and optimise agentic AI systems for Procurement, Trust and Safety, Compliance, and Enterprise Workflows.
+> noosphr specialises in Trust & Safety, EU AI Act compliance, and agentic AI systems. Built by practitioners who've run the operations: Trust & Safety at TikTok and Meta, and Procurement across Europe.
 
-noosphr was founded by Petra Mifka and Eugen Müller — two operators who became AI engineers. Combined, they bring 20+ years of hands-on experience running the functions they now automate: Trust and Safety at scale (TikTok, Meta) and enterprise procurement (TeamViewer, Scout24, Delivery Hero).
-
-We do not produce strategy decks. We ship working systems: agentic pipelines, compliance infrastructure, and AI-augmented operational frameworks.
+noosphr was founded by Petra Mifka and Eugen Müller — operators who became AI engineers. Combined, they bring 20+ years of hands-on experience: Trust and Safety at scale (TikTok, Meta) and enterprise procurement (TeamViewer, Scout24, Delivery Hero). We do not produce strategy decks. We ship working systems: guardrails, governance infrastructure, agentic pipelines, and compliance builds.
 
 ## Founders
 
 **Petra Mifka** — Co-Founder
-10+ years leading Trust and Safety at TikTok and Meta, including a 600+ FTE organisation across EMEA. Expert in EU AI Act compliance, agentic AI product delivery, and responsible AI governance.
+10+ years leading Trust and Safety at TikTok and Meta, including a 600+ FTE organisation across EMEA. Expert in EU AI Act compliance, guardrail design, harm taxonomy, and responsible AI governance.
 Website: https://petramifka.com
 LinkedIn: https://www.linkedin.com/in/petra-mifka
 
@@ -20,10 +18,10 @@ LinkedIn: https://www.linkedin.com/in/eugen-mueller
 
 ## Services
 
+- **Trust & Safety at Scale**: AI-augmented harm taxonomies, governance frameworks, crisis response, and DSA-compliant QA operations. Built by people who've run 600+ FTE T&S organisations.
+- **EU AI Act & Compliance Build**: Annex III classification, FRIA writing, and compliance infrastructure built to survive an audit. 2026 obligations are already in force.
 - **Agentic AI Systems**: Design and deploy multi-step AI agent pipelines using Claude API, n8n, LangChain, and Pinecone. Built for production, not demos.
 - **Process Optimisation with AI**: Workflow redesign for AI augmentation, from RFP automation to QA and supplier triage.
-- **EU AI Act & Compliance Build**: Annex III classification, FRIA writing, and compliance infrastructure built to survive an audit.
-- **Trust & Safety at Scale**: AI-augmented harm taxonomies, governance frameworks, and DSA-compliant QA operations.
 
 ## Projects (Open Source)
 
@@ -35,10 +33,10 @@ LinkedIn: https://www.linkedin.com/in/eugen-mueller
 ## Key Facts
 
 - Location: Berlin, Germany
-- Focus: Europe, with global client base
+- Focus: Trust & Safety, EU AI Act compliance, Agentic AI
 - Combined experience: 20+ years
+- T&S organisation led: 600+ FTE across EMEA
 - AI systems shipped: 7+
-- Spend governed: €70M+
 - Regulatory expertise: EU AI Act, DSA, GDPR
 
 ## Contact
