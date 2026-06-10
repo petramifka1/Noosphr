@@ -623,7 +623,7 @@ body {
 
 .ts-question {
   padding: 1.5rem 2rem;
-  border-left: 4px solid #7C3AED;
+  border-left: 4px solid var(--ink);
   border-bottom: 1px solid var(--border);
 }
 
@@ -668,7 +668,7 @@ body {
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.08em;
-  color: #7C3AED;
+  color: var(--muted);
 }
 
 .ts-card h3 {
@@ -701,7 +701,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #EF4444;
+  color: rgba(255,255,255,0.5);
   margin-bottom: 1.25rem;
 }
 
@@ -732,7 +732,7 @@ body {
 .ts-step-num {
   font-size: 0.72rem;
   font-weight: 700;
-  color: #EF4444;
+  color: rgba(255,255,255,0.4);
   letter-spacing: 0.08em;
   padding-top: 0.15rem;
 }
@@ -1176,6 +1176,7 @@ body {
 }
 
 .faq-item.open .faq-icon { transform: rotate(45deg); }
+.faq-item.open .faq-answer { display: block; }
 
 /* ── CONTACT ── */
 #contact {
